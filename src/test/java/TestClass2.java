@@ -8,7 +8,7 @@ public class TestClass2 {
 	public void testMethod() throws InterruptedException{
 		System.out.println("Hello World");
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/swetha/Documents/softwares/automation drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://goshopmatic.com/in/terms.html");
 		Thread.sleep(10000);
