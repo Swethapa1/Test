@@ -9,8 +9,8 @@ public class TestClass {
 		System.out.println("Hello World");
 		
 		System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver");
-		/*WebDriver driver = new ChromeDriver();
-		driver.navigate().to("https://goshopmatic.com/in/terms.html");
+		WebDriver driver = new ChromeDriver();
+		/*driver.navigate().to("https://goshopmatic.com/in/terms.html");
 		Thread.sleep(10000);
 		
 		System.out.println("Test Over");
