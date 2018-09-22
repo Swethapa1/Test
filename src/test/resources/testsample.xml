@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NIProd" parallel="false">
+	<test name="NI Test - Sanity">
+		<classes>
+			<class name="TestClass" />
+			<class name="TestClass2" />
+		</classes>
+	</test>
+</suite>
